@@ -42,7 +42,7 @@ const About = () => {
 								options={{
 									strings: [
 										'le football Américain',
-										'résoudre des problèmes compliqués',
+										'résoudre des problèmes',
 										'les jeux vidéo',
 										'la gastronomie',
 										'essayer de nouvelles choses',
