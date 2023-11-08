@@ -74,17 +74,18 @@ const ExperienceCard = ({ experience, backcontent }) => {
 				</div>
 				<div className="experience-card-back">
 					{isFlipped && experience.backcontent && (
-						<div>
+						<div
+							className={`backcontent-container ${experience.company
+								.toLowerCase()
+								.replace(/ /g, '')}`}
+						>
 							<h2
-								className={`companyback ${
-									experience.company === 'NomDeLaCompany'
-										? 'custom-class-name'
-										: ''
-								}`}
+								className={`companyback ${experience.company
+									.toLowerCase()
+									.replace(/ /g, '')}`}
 							>
 								{experience.backcontent.company}
 							</h2>
-
 							<h2 className="titleback">{experience.backcontent.title}</h2>
 							<h3>
 								{experience.backcontent.dateFrom}{' '}
@@ -92,11 +93,13 @@ const ExperienceCard = ({ experience, backcontent }) => {
 							</h3>
 							<ul>
 								{experience.backcontent.info.map((point, idx) => (
-									<li key={`${company}-back-point-${idx}`}>{point}</li>
+									<li key={`${experience.company}-back-point-${idx}`}>
+										{point}
+									</li>
 								))}
 							</ul>
 
-							{/* Ajoutez ici les liens en bas de la balise UL */}
+							{/* Add links here at the bottom of the UL element */}
 							<div className="link-container">
 								<a
 									href={experience.backcontent.link1}

@@ -190,6 +190,7 @@
 
 }
 
+
 .experience-card-back .companyback {
   top: 43px;
   left: 164px;
@@ -228,15 +229,27 @@
 
 .experience-card-back .custom-link {
   margin: 0 30px;
-
   text-decoration: none;
   width: 100%;
 
+}
+
+.experience-card-back .companyback {
+  left: 125px;
+}
+
+.experience-card-back .titleback {
+  top: 192px;
+  left: 44px;
 
 }
 
-.experience-card-back .ohmyfood {
-  left: 134px;
+.companyback.booki {
+  left: 165px;
+}
+
+.companyback.kasa {
+  left: 170px;
 }
 
 @media screen and (max-width: 599px) {
@@ -248,7 +261,66 @@
   .experience-card-bottom {
     padding: 65px 15px 20px 15px;
   }
+
+  .companyback.ohmyfood {
+    left: 80px !important;
+
+  }
+
+  .backcontent-container.ohmyfood ul {
+    top: 300px !important;
+    left: 1px;
+    font-size: 14px;
+  }
+
+  .backcontent-container.kasa ul {
+    top: 25px;
+  }
+
+  .backcontent-container.ohmyfood .link-container {
+    top: 406px;
+    left: -55px;
+  }
+
+
+
+  .experience-card-back .titleback {
+    left: 11px;
+    font-size: 22px;
+
+  }
+
+  .experience-card-back h3 {
+    left: 111px;
+    top: 232px;
+  }
+
+  .backcontent-container.kasa h3 {
+
+    left: 72px;
+  }
+
+  .backcontent-container.booki ul {
+
+    top: 286px;
+  }
+
+  .backcontent-container.booki h3 {
+
+    left: 80px !important;
+  }
+
+
+
+  .experience-card-back .link-container {
+    left: -45px;
+    top: 430px;
+
+
+  }
 }
+
+
 
 .experience-card {
   position: relative;
