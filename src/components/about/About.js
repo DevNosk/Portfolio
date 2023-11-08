@@ -46,7 +46,7 @@ const About = () => {
 										'les jeux vidéo',
 										'la gastronomie',
 										'essayer de nouvelles choses',
-										'travailler en équipes',
+										'travailler en équipe',
 									],
 									autoStart: true,
 									loop: true,

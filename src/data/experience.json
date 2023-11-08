@@ -7,7 +7,7 @@
 			"dateFrom": "Objectif",
 			"dateTo": "Février 2023",
 			"info": [
-				"Créez à partir d'une maquette la page d'accueil d'une agence de voyage avec HTML & CSS"
+				"Créer à partir d'une maquette la page d'accueil d'une agence de voyage avec HTML & CSS"
 			],
 			"stack": ["HTML", "CSS", "Figma"],
 			"logoheight": 25,
@@ -35,11 +35,11 @@
 		{
 			"id": 1,
 			"company": "Kasa",
-			"title": "Créez une application web de location",
+			"title": "Créer une application web de location",
 			"dateFrom": "Objectif",
 			"dateTo": "Septembre 2023",
 			"info": [
-				"Crée un site web de location immobilière avec react a partir d'une maquette figma"
+				"Créer un site web de location immobilière avec react à partir d'une maquette figma"
 			],
 			"stack": ["React", "CSS", "JSX", "Figma"],
 			"logowidth": 90,
@@ -65,11 +65,11 @@
 		{
 			"id": 2,
 			"company": "Oh My Food",
-			"title": "Améliorez l'interface d'un site mobile",
+			"title": "Améliorer l'interface d'un site mobile",
 			"dateFrom": "Objectif",
 			"dateTo": "Mai 2023",
 			"info": [
-				"Développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques"
+				"Développer un site mobile first qui répertorie les menus de restaurants gastronomiques"
 			],
 			"stack": ["SCSS", "HTML", "Figma"],
 			"logowidth": 90,
