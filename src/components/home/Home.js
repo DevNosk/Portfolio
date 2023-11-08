@@ -34,7 +34,7 @@ const Home = () => {
 									strings: [
 										"J'aime l'histoire",
 										"Je m'intéresse aux nouvelles technologies",
-										"Je suis passionnée d'informatique",
+										"Je suis passionné d'informatique",
 										'Je prends plaisir à jouer aux jeux de société',
 									],
 									autoStart: true,
