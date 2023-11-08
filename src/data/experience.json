@@ -69,7 +69,7 @@
 			"dateFrom": "Objectif",
 			"dateTo": "Mai 2023",
 			"info": [
-				"Améliorez l'interface d'un site mobile avec des animations SCSS"
+				"Développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques"
 			],
 			"stack": ["SCSS", "HTML", "Figma"],
 			"logowidth": 90,
