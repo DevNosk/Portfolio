@@ -267,6 +267,20 @@
 
   }
 
+  .companyback.booki {
+    left: 120px;
+
+  }
+
+  .backcontent-container.kasa .link-container {
+    top: 393px;
+    left: -55px;
+  }
+
+  .backcontent-container.booki .link-container {
+    top: 393px;
+  }
+
   .backcontent-container.ohmyfood ul {
     top: 300px !important;
     left: 1px;
