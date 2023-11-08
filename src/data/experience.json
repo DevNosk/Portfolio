@@ -16,13 +16,13 @@
 			"backcontent": {
 				"id": 10,
 				"company": "Booki",
-				"title": "Compétence acquise",
+				"title": "Compétences acquises",
 				"dateFrom": "Février 2023",
 
 				"info": [
 					"Lire une maquette",
-					"Confirmée mes aquis en CSS et HTML",
-					"developper a partir d'une maquette"
+					"Confirméer mes aquis en CSS et HTML",
+					"Développer à partir d'une maquette"
 				],
 				"stack": ["Vue.js", "Nuxt.js", "Node.js", "AWS"],
 				"logoheight": 80,
@@ -48,12 +48,12 @@
 			"backcontent": {
 				"id": 11,
 				"company": "Kasa",
-				"title": "Compétence acquise",
+				"title": "Compétences acquises",
 				"dateFrom": "Septembre 2023",
 				"info": [
 					"Le fonctionnement de React",
 					"Apprendre le JSX",
-					"Comprendre le systeme de composant"
+					"Comprendre le système de composants"
 				],
 				"logoheight": 80,
 				"colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)",
@@ -78,11 +78,11 @@
 			"backcontent": {
 				"id": 12,
 				"company": "Oh My Food",
-				"title": "Compétence acquise",
+				"title": "Compétences acquises",
 				"dateFrom": "Mai 2023",
 				"info": [
 					"Apprendre le SCSS",
-					"Apprendre a faire des animations",
+					"Apprendre à faire des animations",
 					"Apprends à développer en Mobile First"
 				],
 				"logoheight": 80,
