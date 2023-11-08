@@ -274,7 +274,11 @@
   }
 
   .backcontent-container.kasa ul {
-    top: 25px;
+    top: 300px;
+  }
+
+  .companyback.kasa {
+    left: 120px;
   }
 
   .backcontent-container.ohmyfood .link-container {
