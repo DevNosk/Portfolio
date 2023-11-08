@@ -23,7 +23,7 @@ const Navbar = () => {
 					</Link>
 				</div>
 				<div className="navlink-wrapper">
-					<Link to="about" spy={true} smooth={true} duration={500}>
+					<Link to="a propos" spy={true} smooth={true} duration={500}>
 						A PROPOS
 					</Link>
 				</div>

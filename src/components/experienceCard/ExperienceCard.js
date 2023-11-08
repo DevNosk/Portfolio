@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import './ExperienceCard.css';
-
-const ExperienceCard = ({ experience }) => {
+import GitHub from '../../images/social/github.png';
+import Page from '../../images/social/internet.png';
+const ExperienceCard = ({ experience, backcontent }) => {
 	const [isFlipped, setFlipped] = useState(false);
 
 	const toggleFlip = () => {
 		setFlipped(!isFlipped);
 	};
 
-	const { company, title, dateFrom, dateTo, info, stack, backtitle } =
-		experience;
+	const { company, title, dateFrom, dateTo, info, stack } = experience;
 
 	return (
 		<div
@@ -73,7 +73,48 @@ const ExperienceCard = ({ experience }) => {
 					</div>
 				</div>
 				<div className="experience-card-back">
-					<h2>{backtitle}</h2>
+					{isFlipped && experience.backcontent && (
+						<div>
+							<h2
+								className={`companyback ${
+									experience.company === 'NomDeLaCompany'
+										? 'custom-class-name'
+										: ''
+								}`}
+							>
+								{experience.backcontent.company}
+							</h2>
+
+							<h2 className="titleback">{experience.backcontent.title}</h2>
+							<h3>
+								{experience.backcontent.dateFrom}{' '}
+								{experience.backcontent.dateTo}
+							</h3>
+							<ul>
+								{experience.backcontent.info.map((point, idx) => (
+									<li key={`${company}-back-point-${idx}`}>{point}</li>
+								))}
+							</ul>
+
+							{/* Ajoutez ici les liens en bas de la balise UL */}
+							<div className="link-container">
+								<a
+									href={experience.backcontent.link1}
+									className="custom-link"
+									onClick={e => e.stopPropagation()}
+								>
+									<img className="git" src={GitHub} alt="GitHub" />
+								</a>
+								<a
+									href={experience.backcontent.link2}
+									className="custom-link"
+									onClick={e => e.stopPropagation()}
+								>
+									<img className="internet" src={Page} alt="Page" />
+								</a>
+							</div>
+						</div>
+					)}
 				</div>
 			</div>
 		</div>

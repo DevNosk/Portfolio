@@ -25,7 +25,7 @@ const Skills = () => {
 									: {}
 							}
 						>
-							<h2>Skills</h2>
+							<h2>Compétences</h2>
 							<ul className="skills" ref={skillsWrapper}>
 								{skillsData.skills.map(skills => {
 									return (

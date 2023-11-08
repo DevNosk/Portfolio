@@ -8,7 +8,7 @@ import Skills from '../skills/Skills';
 
 const About = () => {
 	return (
-		<Section title="About">
+		<Section title="A propos">
 			<div className="about-content">
 				<Fade duration={1000}>
 					<div className="about-text">

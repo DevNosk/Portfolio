@@ -22,7 +22,7 @@ const MobileNav = ({ toggleMobilenavVisible, mobilenavVisible }) => {
 					<div className="mobilenavlink">
 						<Link
 							activeClass="active"
-							to="about"
+							to="A propos"
 							spy={true}
 							smooth={true}
 							offset={1}

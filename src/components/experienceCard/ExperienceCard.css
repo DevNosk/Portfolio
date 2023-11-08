@@ -20,7 +20,6 @@
   align-items: center;
   justify-content: center;
   transform-style: preserve-3d;
-  /* Empêche la transformation sur cette partie */
 }
 
 .experience-card-top,
@@ -172,9 +171,73 @@
   transform: rotateY(180deg);
 }
 
+.experience-card.flip img {
+  transform: rotateY(180deg);
+}
+
+.experience-card-back h2,
+.experience-card-back h3,
+.experience-card-back ul {
+  position: absolute;
+  transform: rotateY(180deg);
+  height: 100%;
+}
 
 
+.experience-card-back .titleback {
+  top: 192px;
+  left: 44px;
 
+}
+
+.experience-card-back .companyback {
+  top: 43px;
+  left: 164px;
+  transform: rotateY(180deg);
+  font-size: 22px;
+}
+
+.experience-card-back h3 {
+  top: 259px;
+  left: 139px;
+  font-size: 18px;
+}
+
+.experience-card-back ul {
+  top: 326px;
+  left: 30px;
+  font-size: 16px;
+}
+
+.experience-card-back .link-container {
+  position: absolute;
+  transform: rotateY(180deg);
+  top: 417px;
+  left: -80px;
+  width: 100%;
+
+}
+
+.experience-card-back .link-container .git {
+  width: 10%;
+}
+
+.experience-card-back .link-container .internet {
+  width: 15%;
+}
+
+.experience-card-back .custom-link {
+  margin: 0 30px;
+
+  text-decoration: none;
+  width: 100%;
+
+
+}
+
+.experience-card-back .ohmyfood {
+  left: 134px;
+}
 
 @media screen and (max-width: 599px) {
   .experience-card-wrapper:hover .experience-card {

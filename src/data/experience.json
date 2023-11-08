@@ -2,60 +2,95 @@
 	"experience": [
 		{
 			"id": 0,
-			"company": "8secondz",
-			"title": "Creative Lead - Web & App Teams",
-			"dateFrom": "June 2020",
-			"dateTo": "July 2021",
+			"company": "Booki",
+			"title": "La page d'accueil d'une agence de voyage",
+			"dateFrom": "Objectif",
+			"dateTo": "Février 2023",
 			"info": [
-				"Responsible for web team front-end development and design",
-				"Led in app UI/UX & company wide creative media content"
+				"Créez à partir d'une maquette la page d'accueil d'une agence de voyage avec HTML & CSS"
 			],
-			"stack": ["Vue.js", "Nuxt.js", "Node.js", "AWS"],
-			"logoheight": 80,
-			"colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)",
-			"colourSecondary": "linear-gradient(to bottom, #f4592b, #f28d25)",
+			"stack": ["HTML", "CSS", "Figma"],
+			"logoheight": 25,
+			"colourPrimary": "linear-gradient(to bottom, #0065FC, #0050C7)",
+			"colourSecondary": "linear-gradient(to bottom, #0065FC, #0050C7)",
 			"backcontent": {
 				"id": 10,
-				"company": "8secondz",
-				"title": "Creative Lead - Web & App Teams",
-				"dateFrom": "June 2020",
-				"dateTo": "July 2021",
-				"info": ["Responsible for web team front-end development and design"],
+				"company": "Booki",
+				"title": "Compétence acquise",
+				"dateFrom": "Février 2023",
+
+				"info": [
+					"Lire une maquette",
+					"Confirmée mes aquis en CSS et HTML",
+					"developper a partir d'une maquette"
+				],
 				"stack": ["Vue.js", "Nuxt.js", "Node.js", "AWS"],
 				"logoheight": 80,
-				"colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)",
-				"colourSecondary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+				"colourPrimary": "linear-gradient(to bottom, #0065FC, #0050C7)",
+				"colourSecondary": "linear-gradient(to bottom, #0065FC, #0050C)",
+				"link1": "https://github.com/DevNosk/Booki",
+				"link2": "https://devnosk.github.io/Booki/"
 			}
 		},
 		{
 			"id": 1,
-			"company": "Psykinetic",
-			"title": "Immersive Tech & Web Developer",
-			"dateFrom": "August 2020",
-			"dateTo": "Current",
+			"company": "Kasa",
+			"title": "Créez une application web de location",
+			"dateFrom": "Objectif",
+			"dateTo": "Septembre 2023",
 			"info": [
-				"Developing VR application with UE4 and C++ for Oculus Quest",
-				"Web design & development of web platform using wix"
+				"Crée un site web de location immobilière avec react a partir d'une maquette figma"
 			],
-			"stack": ["C++", "UE4", "VR", "Web Design"],
-			"logowidth": 80,
-			"colourPrimary": "linear-gradient(to bottom, #465a90, #1e3470)",
-			"colourSecondary": "linear-gradient(to bottom, #465a90, #1e3470)"
+			"stack": ["React", "CSS", "JSX", "Figma"],
+			"logowidth": 90,
+			"colourPrimary": "linear-gradient(to bottom, #FF6060, #cc4c4c)",
+			"colourSecondary": "linear-gradient(to bottom, #FF6060, #cc4c4c)",
+			"backcontent": {
+				"id": 11,
+				"company": "Kasa",
+				"title": "Compétence acquise",
+				"dateFrom": "Septembre 2023",
+				"info": [
+					"Le fonctionnement de React",
+					"Apprendre le JSX",
+					"Comprendre le systeme de composant"
+				],
+				"logoheight": 80,
+				"colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)",
+				"colourSecondary": "linear-gradient(to bottom, #f4592b, #f28d25)",
+				"link1": "https://github.com/DevNosk/Kasa",
+				"link2": "https://projet9kasa.netlify.app"
+			}
 		},
 		{
 			"id": 2,
-			"company": "CactusCan",
-			"title": "Creative Lead",
-			"dateFrom": "2016",
-			"dateTo": "Current",
+			"company": "Oh My Food",
+			"title": "Améliorez l'interface d'un site mobile",
+			"dateFrom": "Objectif",
+			"dateTo": "Mai 2023",
 			"info": [
-				"Co-founding CactusCan in 2015 has led to many exciting projects with incredible customers.",
-				"Web design, marketing, media and customer engagement."
+				"Améliorez l'interface d'un site mobile avec des animations SCSS"
 			],
-			"stack": ["React", "Marketing", "Design", "UI/UX"],
-			"logowidth": 80,
-			"colourPrimary": "linear-gradient(to bottom, #39b175, #0be779)",
-			"colourSecondary": "linear-gradient(to bottom, #39b175, #0be779)"
+			"stack": ["SCSS", "HTML", "Figma"],
+			"logowidth": 90,
+			"colourPrimary": "linear-gradient(to bottom, #9356DC,#003A68)",
+			"colourSecondary": "linear-gradient(to bottom,  #9356DC,#003A68)",
+			"backcontent": {
+				"id": 12,
+				"company": "Oh My Food",
+				"title": "Compétence acquise",
+				"dateFrom": "Mai 2023",
+				"info": [
+					"Apprendre le SCSS",
+					"Apprendre a faire des animations",
+					"Apprends à développer en Mobile First"
+				],
+				"logoheight": 80,
+				"colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)",
+				"colourSecondary": "linear-gradient(to bottom, #f4592b, #f28d25)",
+				"link1": "https://github.com/DevNosk/Projet4",
+				"link2": "https://devnosk.github.io/Oh-my-food/"
+			}
 		}
 	]
 }
