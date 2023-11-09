@@ -8,13 +8,13 @@
 		{
 			"id": 1,
 			"skillName": "React.js",
-			"amount": "75"
+			"amount": "60"
 		},
 		{
 			"id": 2,
 			"skillName": "Photoshop",
 			"amount": "80"
 		},
-		{ "id": 3, "skillName": "Javascript", "amount": "85" }
+		{ "id": 3, "skillName": "Javascript", "amount": "59" }
 	]
 }

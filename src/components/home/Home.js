@@ -59,7 +59,7 @@ const Home = () => {
 						<div className="scroll-down">
 							<Link
 								activeClass="active"
-								to="apropos"
+								to="a propos"
 								spy={true}
 								smooth={true}
 								offset={-63}
